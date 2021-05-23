@@ -12,6 +12,10 @@ header {
     background-color: #999999;
 }
 
+header img{
+    width: 110px;
+}
+
 header div{
     display: flex;
     justify-content: center;
@@ -68,7 +72,8 @@ h3{
     max-width: 80%;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    margin: auto;
+    margin: auto; /* fit content to center */
+    margin-top: 55px;
 }
 
 p{
@@ -96,10 +101,6 @@ a{
     padding: 5px;
 }
 
-.skills-primary .skill:first-child span{
-    width: 50%;
-}
-
 .skill span{
     display: block;
     padding: 0.2rem;
@@ -107,24 +108,28 @@ a{
     color: white;
 }
 
+.skills-primary .skill:first-child span{
+    width: 50%;
+}
+
 .skills-primary .skill:nth-child(2) span{
     width: 30%;
 }
 
 .skills-primary .skill:nth-child(3) span{
-    width: 10%;
+    width: 15%;
 }
 
 .skills-secondary .skill:nth-child(1) span{
-    width: 90%;
+    width: 30%;
 }
 
 .skills-secondary .skill:nth-child(2) span{
-    width: 50%;
+    width: 30%;
 }
 
 .skills-secondary .skill:nth-child(3) span{
-    width: 70%;
+    width: 10%;
 }
 
 .skills-secondary{   
@@ -193,6 +198,6 @@ a{
     }
 
     #contact div .contact-value{
-        width: 7rem;
+        width: 8rem;
     }
 }
